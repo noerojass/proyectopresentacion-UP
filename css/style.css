@@ -5,13 +5,11 @@ html{
 }
 body{
     background: #f6e4fa;
-     
 }
 .header{ 
     
      background-color: #ddfdf1;
      text-align:left
-      
 }
 .logo>h1{
     text-align: center;
@@ -29,10 +27,14 @@ body{
     font-size: 30px;
     background-color: #f6d9fd;
     }
-#contacto{
-     font-family: 'Roboto Slab', serif;
-     font: weight 100px;
-     text-align: center;
+#contacto>img{
+    image-orientation: flip;
+    width: 100%;
+}
+.contenidocontacto{
+        display: inline-flex;
+        text-align: center;
+       
 }
 #footer{
     font-family:'Libre Baskerville', serif;
